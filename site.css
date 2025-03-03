@@ -1,0 +1,84 @@
+/* Общие стили */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f9; /* Нежный светлый фон */
+    color: #333; /* Основной цвет текста */
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+/* Центровка контента и добавление отступов */
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+/* Оформление заголовков */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4a90e2; /* Голубой оттенок для заголовка */
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #333;
+    border-bottom: 2px solid #eaeaea; /* Подчеркивание */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Оформление блока со стихами */
+.poem {
+    background-color: #ffffff; /* Белый фон */
+    color: #555; /* Нейтральный цвет текста */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень вокруг */
+    border-left: 5px solid #4a90e2; /* Цветовая полоска слева */
+}
+
+/* Стилизуем текст стихов */
+.poem p {
+    margin: 10px 0;
+    white-space: pre-line; /* Сохранение переносов строк */
+    text-align: justify; /* Выравнивание текста по ширине */
+    font-size: 1.1em;
+}
+
+/* Добавляем завершённый футер */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #888;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eaeaea;
+}
+#main-menu{
+    text-align: center;
+    padding: 20px;
+
+}
+#main-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#main-menu ul li {
+    display: inline;
+    list-style: none;
+}
+#main-menu ul li a {
+    text-decoration: none;
+    color: #e8db;
+}
+#main-menu ul li a:hover {
+    color: #555;
+}
